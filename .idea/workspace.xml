@@ -1,230 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="479ab082-cf27-4406-a9f3-bd3606a8eec1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/afraid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/amorous.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/angel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/angry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/bathing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/beer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/behance.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/behance_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/images/border.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/bored.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/boy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/camera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/chat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/chilli.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/cigarette.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/cinema.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/coffee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/cold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/confused.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/console.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/images/controls.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/cross.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/crying.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/devil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/disappointed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/dont-know.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/dribbble.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/drool.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/embarrassed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/excited.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/excruciating.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/eyeroll.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/s/fb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/free_cars_vector_set_148000.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/s/g.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/girl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/github.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/github_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/google_plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/grumpy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/habrahabr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/happy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/hot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/hug-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/hug-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/hungry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/in_love.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/instagram.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/internet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/invincible.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/kiss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/lamp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/linkedin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/livejournal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/images/loading_background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/logo-128x128.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/logo-18x18.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/logo-50x50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/logo.xcf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/lying.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/s/m.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/mail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/mail_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/meeting.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/mobile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/moi_krug.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/mrgreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/musical-note.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/nerdy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/neutral.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/odnoklassniki.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/s/ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/images/overlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/party.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/phone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/phone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/pinterest.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/pirate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/pissed-off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/plate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/question.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/restroom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/rose.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/rss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/sad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/shame.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/shocked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/shopping.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/shut-mouth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/sick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/silent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/skype.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/sleeping.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/sleepy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/star.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/stressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/studying.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/suit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/surfing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/thinking.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/thunder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/tongue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/tumblr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/tv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/typing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/uhm-yeah.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/vimeo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/s/vk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/vk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/vk_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/wink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/working.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/smiley/writing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/yandex.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/yandex_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/youtube.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/youtube_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/without shadow/youtube_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wysiwyg.js/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/migrations/0002_auto_20150707_0721.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/migrations/0003_account_slug.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/migrations/0004_auto_20150725_0848.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/migrations/0005_auto_20150805_1017.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/migrations/0006_auto_20150806_0448.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/migrations/0007_auto_20150923_1656.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/migrations/0008_auto_20150923_1727.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/migrations/0009_auto_20150923_1728.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/migrations/0010_auto_20160116_1935.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wysiwyg.js/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wysiwyg.js/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wysiwyg.js/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leaza/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/templates/account/_login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article/templates/article/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/bootstrap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wysiwyg.js/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/calc_weight.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/templates/account/change-password.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/colorbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article/templates/article/comment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/csrf_token.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/templates/account/display.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/templates/account/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article/templates/article/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/edit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article/templates/article/full.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article/test_data/gif_with_text" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/html.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article/test_data/huge_photo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wysiwyg.js/demo/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.colorbox-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.mb.browser.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/listing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/templates/account/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/src/logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wysiwyg.js/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/plural_rus.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/templates/account/registration.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/script.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/se.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leaza/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leaza/settings_local_example.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leaza/sidebar_processor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article/signals.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/slugify.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/social_after_create.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/style.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article/templates/article/teaser.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leaza/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/account/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leaza/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leaza/wsgi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wysiwyg.js/src/wysiwyg-editor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wysiwyg.js/src/wysiwyg-editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wysiwyg.js/dist/wysiwyg-editor.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wysiwyg.js/dist/wysiwyg-editor.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wysiwyg.js/src/wysiwyg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/wysiwyg.js/dist/wysiwyg.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leaza/xhr_flag_context_processor.py" />
+    <list default="true" id="479ab082-cf27-4406-a9f3-bd3606a8eec1" name="Default" comment="First commit">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/se.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="se.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -248,23 +34,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.09677419" vertical-offset="0" max-vertical-offset="775">
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46370968" vertical-offset="0" max-vertical-offset="744">
+            <state vertical-scroll-proportion="-11.129032" vertical-offset="0" max-vertical-offset="465">
               <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
               <folding />
             </state>
@@ -380,8 +166,8 @@
         <option value="$PROJECT_DIR$/se/__init__.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/leaza/settings_local_example.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -1198,14 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/wysiwyg.js/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3483871" vertical-offset="0" max-vertical-offset="3120">
@@ -1219,8 +997,16 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46370968" vertical-offset="0" max-vertical-offset="744">
+        <state vertical-scroll-proportion="-11.129032" vertical-offset="0" max-vertical-offset="465">
           <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09677419" vertical-offset="0" max-vertical-offset="775">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding />
         </state>
       </provider>

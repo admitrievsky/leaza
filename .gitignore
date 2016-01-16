@@ -3,3 +3,4 @@
 /leaza/settings_local.py
 /media/*
 *.pyc
+.idea
