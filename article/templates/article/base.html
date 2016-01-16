@@ -1,0 +1,39 @@
+{% load thumbnail %}
+{% load i18n %}
+{% load humanize %}
+
+<div class="article" data-id="{{ article.pk }}">
+    <h1><a href="{% url 'article:full' article.slug %}">{{ article.title }}</a></h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="vote">
+                <div><a href="javascript:void(0)" class="up"><i class="glyphicon glyphicon-menu-up"></i></a></div>
+                <div class="value">{{article.rating}}</div>
+                <div><a href="javascript:void(0)" class="down"><i class="glyphicon glyphicon-menu-down"></i></a></div>
+            </div>
+            <div>
+                <a href="{% url 'article:full' article.slug %}#comments">{{ article.comment_count }} comment{{ article.comment_count|pluralize }}</a>;
+                {% if article.author %}
+                    {% thumbnail article.author.image "20x20" crop="center" as im %}
+                        <a href="{% url 'account:display' article.author.slug %}">
+                            <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}">
+                        </a>
+                    {% endthumbnail %}
+                    <a href="{% url 'account:display' article.author.slug %}">@{{ article.get_author_display_name }}</a>
+                {% else %}
+                    @{{ article.get_author_display_name }}
+                {% endif %}
+                {{ article.created|naturalday }}
+
+                {% if add_edit_link %}
+                    <a href="{% url 'article:edit' article.slug %}"><span class="glyphicon glyphicon-edit">{% trans "Edit" %}</span></a>
+                {% endif %}
+
+                {% if user.is_staff %} {{ article.weight|floatformat:-2 }} {% endif %}
+
+                <div class="content">{{ article.get_content|safe }}</div>
+
+            </div>
+        </div>
+    </div>
+</div>

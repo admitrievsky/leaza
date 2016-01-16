@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% load bootstrap3 %}
+{% load thumbnail %}
+{% load i18n %}
+
+{% block title %}
+   {{ account.get_full_name }}
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}
+
+{% block css %}
+{% endblock %}
+
+{% block content %}
+
+<h1>{% trans "User profile" %}</h1>
+<div class="jumbotron user">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="image">
+                {% thumbnail account.image "120x120" crop="center" as im %}
+                    <a href="{% url 'account:display' account.slug %}">
+                        <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}">
+                    </a>
+                {% endthumbnail %}
+            </div>
+            <div>
+                <h2>
+                <a href="{% url 'account:display' account.slug %}">{{ account.get_full_name }}</a>
+                </h2>
+                <table class="table">
+                    <tr><td>{% trans "Rating" %}</td><td>{{ account.get_rating }}</td></tr>
+                    <tr><td>{% trans "Posts" %}</td><td>{{ account.articles_count }}</td></tr>
+                    <tr><td>{% trans "Comments" %}</td><td>{{ account.comments_count }}</td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    {% if can_edit %}
+        <a href="{% url 'account:edit' account.slug %}" class="btn btn-default btn-xs">{% trans "Edit" %}</a>
+    {% endif %}
+</div>
+
+{% for article in articles %}
+{% include 'article/teaser.html' %}
+{% endfor %}
+
+{% if not articles %}<div>{% trans "The user has not created any content yet." %}</div>{% endif %}
+
+{% if articles.paginator.num_pages > 1 %}
+{% bootstrap_pagination articles url="" size="large" %}
+{% endif %}
+
+{% endblock %}

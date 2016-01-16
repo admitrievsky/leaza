@@ -1,0 +1,44 @@
+{% load thumbnail %}
+{% load i18n %}
+{% load humanize %}
+
+{% for _, c in  comments.items %}
+{% with c.comment as article %}
+<div class="comment panel panel-default" data-id="{{ article.pk }}" id="comment{{ article.pk }}">
+    <div class="heading panel-heading">
+        <span class="vote">
+            <span><a href="javascript:void(0)" class="up"><i class="glyphicon glyphicon-menu-up"></i></a></span>
+            <span class="value">{{article.rating}}</span>
+            <span><a href="javascript:void(0)" class="down"><i class="glyphicon glyphicon-menu-down"></i></a></span>
+        </span>
+
+        {% if article.author %}
+            {% thumbnail article.author.image "20x20" crop="center" as im %}
+                <a href="{% url 'account:display' article.author.slug %}">
+                    <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}">
+                </a>
+            {% endthumbnail %}
+
+            <a href="{% url 'account:display' article.author.slug %}">@{{ article.get_author_display_name }}</a>
+        {% else %}
+            @{{ article.get_author_display_name }}
+        {% endif %}
+        {{ article.created|naturalday }}
+
+    </div>
+    <div class="panel-body">
+        {{ article.get_content|safe }}
+    </div>
+
+    <a href="javascript:void(0)" class="btn btn-default btn-xs answer-this">Reply</a>
+    <a href="javascript:void(0)" class="btn btn-default btn-xs cancel-answer btn-danger" style="display:none">{% trans "Cancel" %}</a>
+
+    <div class="comment-form-placeholder"></div>
+
+    {% with c.children as comments %}
+      {% include 'article/comment.html' %}
+    {% endwith %}
+
+{% endwith %}
+</div>
+{% endfor %}

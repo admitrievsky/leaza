@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% load bootstrap3 %}
+{% load thumbnail %}
+{% load i18n %}
+
+{% block title %}
+   {% trans "Edit profile" %}. {{ account.get_full_name }}
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}
+
+{% block css %}
+{% endblock %}
+
+{% block content %}
+<h2>{% trans "Edit profile" %}. {{ account.get_full_name }}</h2>
+<p>
+{% thumbnail account.image "120x120" crop="center" as im %}
+    <a href="{% url 'account:display' account.slug %}">
+        <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}">
+    </a>
+{% endthumbnail %}
+</p>
+
+{% if is_owner %}
+<p>
+<a href="{% url 'account:change-password' %}" class="btn btn-danger btn-xs">{% trans "Change your password" %}</a>
+</p>
+{% endif %}
+
+<form role="form" method="post" enctype='multipart/form-data'>
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    {% buttons submit='Change' %}{% endbuttons %}
+</form>
+
+{% endblock %}

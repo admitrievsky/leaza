@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% load bootstrap3 %}
+{% load thumbnail %}
+{% load i18n %}
+
+{% block title %}
+   {% trans "Register" %}
+{% endblock %}
+
+
+{% block content %}
+<form role="form" method="post" enctype='multipart/form-data'>
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    {% buttons submit='Register' %}
+    {% endbuttons %}
+</form>
+{% endblock %}

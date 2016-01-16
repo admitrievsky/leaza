@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% load bootstrap3 %}
+{% load i18n %}
+
+{% block scripts %}
+<script src="/static/wysiwyg.js/src/wysiwyg.js"></script>
+<script src="/static/wysiwyg.js/src/wysiwyg-editor.js"></script>
+<script src="/static/js/edit.js"></script>
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="/static/wysiwyg.js/dist/wysiwyg-editor.min.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+{% endblock %}
+
+{% block title %}{{ action }} {% trans "the article" %}{% endblock %}
+
+{% block content %}
+    <h1>{{ action }} {% trans "the article" %}</h1>
+
+    <form role="form" method="post">
+        {% csrf_token %}
+        {% bootstrap_form form %}
+        {% buttons submit=action_button %}{% endbuttons %}
+    </form>
+
+{% endblock %}
+
+

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% load bootstrap3 %}
+{% load thumbnail %}
+{% load i18n %}
+
+{% block title %}
+   {% trans "Login" %}
+{% endblock %}
+
+
+{% block content %}
+
+{% include 'account/_login.html' %}
+
+{% endblock %}

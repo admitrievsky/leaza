@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% load bootstrap3 %}
+
+{% block title %}
+    {{ article.title }}
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/wysiwyg.js/src/wysiwyg.js"></script>
+<script src="/static/wysiwyg.js/src/wysiwyg-editor.js"></script>
+<script src="/static/js/edit.js"></script>
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="/static/wysiwyg.js/dist/wysiwyg-editor.min.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+{% endblock %}
+
+{% block content %}
+
+{% include 'article/base.html' %}
+
+<div class="pretty-heading">
+    {{ article.comment_count }} comment{{ article.comment_count|pluralize }}
+</div>
+
+<div class="comments" id="comments">
+{% with article.get_comments as comments %}
+{% include 'article/comment.html' %}
+{% endwith %}
+</div>
+
+<div class="pretty-heading" id="add-comment-heading">
+    Write comments...
+</div>
+
+<div id="comment-form-wrapper">
+<form role="form" method="post" id="comment-form">
+    {% csrf_token %}
+    {% bootstrap_form comment_form %}
+    {% buttons submit='Post' %}{% endbuttons %}
+</form>
+</div>
+
+{% endblock %}

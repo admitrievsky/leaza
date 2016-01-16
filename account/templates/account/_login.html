@@ -1,0 +1,25 @@
+{% load bootstrap3 %}
+{% load i18n %}
+
+<div class="row login">
+  <div class="col-md-6 local">
+    <h2>{% trans "Login" %}</h2>
+    <form role="form" method="post" enctype='multipart/form-data' action="{% url 'account:login' %}">
+        {% csrf_token %}
+        {% bootstrap_form form %}
+        {% buttons submit='Login' %} {% trans "or" %}
+            <a href="{% url 'account:register' %}" class="btn btn-success">{% trans "Register" %}</a>
+        {% endbuttons %}
+    </form>
+  </div>
+  <div class="col-md-6">
+      <h2>{% trans "Connect with a social network" %}</h2>
+      <div class="list-group">
+      <!--<a href="/login/odnoklassniki-oauth2/" class="list-group-item"><img src="/static/img/s/ok.png" /> Одноклассники</a>-->
+      <!--<a href="/login/vk-oauth2/" class="list-group-item"><img src="/static/img/s/vk.png" /> ВКонтакте</a>-->
+      <!--<a href="/login/mailru-oauth2/" class="list-group-item"><img src="/static/img/s/m.png" /> Mail.ru (Мой мир)</a>-->
+      <a href="/login/facebook/" class="list-group-item"><img src="/static/img/s/fb.png" /> Facebook</a>
+      <a href="/login/google-oauth2/" class="list-group-item"><img src="/static/img/s/g.png" /> Google</a>
+      </div>
+  </div>
+</div>
