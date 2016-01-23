@@ -1,7 +1,7 @@
 Leaza
 =====
 
-Leaza is an social media Django website engine. It focuses on user-created content.
+Leaza is a social media Django website engine. It focuses on user-created content.
 Any post may contain rich text, images dropped to the editor (no upload of files needed), embedded youtube videos.
 There is an tree-like commenting system where comment is an ordinal post, so it also may contain rich media.
  
@@ -11,6 +11,9 @@ Requirements
 * Python 3.4 or higher
 * Tested with Django 1.8
 * SQL Database you like
+* apt-get install coffee
+* apt-get install node-less
+
 
 Installation
 ============
